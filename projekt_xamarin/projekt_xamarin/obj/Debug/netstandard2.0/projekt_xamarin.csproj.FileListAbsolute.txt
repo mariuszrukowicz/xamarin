@@ -1,0 +1,12 @@
+C:\Users\Mariusz\Desktop\GIT\xamarin\projekt_xamarin\projekt_xamarin\bin\Debug\netstandard2.0\projekt_xamarin.deps.json
+C:\Users\Mariusz\Desktop\GIT\xamarin\projekt_xamarin\projekt_xamarin\bin\Debug\netstandard2.0\projekt_xamarin.dll
+C:\Users\Mariusz\Desktop\GIT\xamarin\projekt_xamarin\projekt_xamarin\bin\Debug\netstandard2.0\projekt_xamarin.pdb
+C:\Users\Mariusz\Desktop\GIT\xamarin\projekt_xamarin\projekt_xamarin\obj\Debug\netstandard2.0\projekt_xamarin.csprojAssemblyReference.cache
+C:\Users\Mariusz\Desktop\GIT\xamarin\projekt_xamarin\projekt_xamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Mariusz\Desktop\GIT\xamarin\projekt_xamarin\projekt_xamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Mariusz\Desktop\GIT\xamarin\projekt_xamarin\projekt_xamarin\obj\Debug\netstandard2.0\projekt_xamarin.csproj.CoreCompileInputs.cache
+C:\Users\Mariusz\Desktop\GIT\xamarin\projekt_xamarin\projekt_xamarin\obj\Debug\netstandard2.0\projekt_xamarin.AssemblyInfoInputs.cache
+C:\Users\Mariusz\Desktop\GIT\xamarin\projekt_xamarin\projekt_xamarin\obj\Debug\netstandard2.0\projekt_xamarin.AssemblyInfo.cs
+C:\Users\Mariusz\Desktop\GIT\xamarin\projekt_xamarin\projekt_xamarin\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Mariusz\Desktop\GIT\xamarin\projekt_xamarin\projekt_xamarin\obj\Debug\netstandard2.0\projekt_xamarin.dll
+C:\Users\Mariusz\Desktop\GIT\xamarin\projekt_xamarin\projekt_xamarin\obj\Debug\netstandard2.0\projekt_xamarin.pdb
