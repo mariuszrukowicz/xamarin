@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyCookBook.Views.AddPage"
              Icon="add"            
-             Padding="10">
+             Padding="10"
+             BackgroundImage="photo7">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
@@ -26,7 +27,10 @@
                            Placeholder="Tytuł"
                            Grid.Row="0" 
                            Grid.ColumnSpan="4"
-                           FontSize="Medium"/>
+                           FontSize="Large"
+                           TextColor="Azure"
+                           />
+                    
                     <Image x:Name="image" Source="{Binding Recipe.Image}" 
                            Grid.Row="1" 
                            Grid.ColumnSpan="4"
@@ -38,7 +42,8 @@
                             FontSize="Micro"                            
                             HeightRequest="50" 
                             WidthRequest="120"
-                            BackgroundColor="OrangeRed"
+                            BackgroundColor="Gray"
+                            TextColor="Azure"
                             HorizontalOptions="Center"
                             BorderRadius="4"/>
                     <Button x:Name="pickPhoto" Text="Przeglądaj album" 
@@ -49,8 +54,9 @@
                             FontSize="Micro" 
                             HeightRequest="50" 
                             WidthRequest="120"
-                            BackgroundColor="OrangeRed"
+                            BackgroundColor="Gray"
                             HorizontalOptions="Fill"
+                            TextColor="Azure"
                             BorderRadius="4"/>
                     <Entry x:Name="igredientName"
                             Text="{Binding Igredient.Name, Mode=OneWayToSource}"                          
@@ -110,7 +116,8 @@
                 <Button x:Name="AddRecpie" Text="Dodaj przepis"
                     Command="{Binding AddRecpie}"                       
                     FontSize="Small" 
-                    BackgroundColor="OrangeRed"
+                    BackgroundColor="Gray"
+                    TextColor="Azure"
                     BorderRadius="4"
                     Margin="0,10,0,20"/>
                 </StackLayout>

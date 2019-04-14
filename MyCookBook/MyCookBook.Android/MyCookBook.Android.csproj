@@ -137,6 +137,9 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\ok.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\photo7.jpg" />
+  </ItemGroup>
   <Import Project="..\MyCookBook\MyCookBook.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

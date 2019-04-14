@@ -4,11 +4,11 @@
              xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
              x:Class="MyCookBook.Views.ListPage"
              Icon="menu"
-             BackgroundColor="GhostWhite">
+             BackgroundImage="photo7">
 
     <ScrollView Orientation="Vertical">
         <StackLayout
-            Margin="10">
+            Margin="15">
             <ListView ItemsSource="{Binding Recipe}">
                 <ListView.Behaviors>
                     <behaviors:EventToCommandBehavior                 

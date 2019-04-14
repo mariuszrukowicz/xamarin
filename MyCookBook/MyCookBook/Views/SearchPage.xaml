@@ -4,7 +4,7 @@
              xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
              x:Class="MyCookBook.Views.SearchPage"
              Icon="search"
-             BackgroundColor="GhostWhite">
+            BackgroundImage="photo7">
     
     <ContentPage.Content>
         <ScrollView Orientation="Vertical">
