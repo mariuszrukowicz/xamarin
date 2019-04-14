@@ -16,61 +16,70 @@ namespace MyCookBook.Data
                 {
                     Id = 1,
                     AddedDate = DateTime.UtcNow,
-                    Name="Pierogi ruskie",
-                    Description = "Ciasto\nZ mąki formujemy kopczyk, robimy wgłębienie do którego wlewamy olej, żółtko,wsypujemy sól. "+
-                    "Chwilkę wyrabiamy następnie powoli wlewamy wodę i zarabiamy ciasto nożem. Na końcu dokładnie wyrabiamy ciasto rękami, im dłużej tym"+
-                    " ciasto będzie bardziej miękkie i elastyczne. Zawijamy w folię i odstawiamy na chwilkę by odpoczęło.Rozwałkowujemy na lekko oprószonej mąką stolnicy, "+
-                    "wykrawamy kółka na pierogi, przykrywamy ściereczką by chronić ciasto przed nadmiernym wysuszeniem. \nFarsz\nCebulę kroimy w drobną kosteczkę, wrzucamy na"+
-                    " rozgrzany olej i szklimy, aż będzie miękka.\nSer i ziemniaki przepuszczamy przez maszynkę, dodajemy usmażoną cebulkę, doprawimy do smaku.\nKładziemy po łyżeczce"+
-                    " farszu na ciasto, zalepiamy.\nPierogi gotujemy we wrzącej osolonej wodzie około 3 - 5 minut na mniejszym gazie.\nOdcedzamy i podajemy okraszane masłem lub "+
-                    "usmażoną cebulką.",
-                    Image= "img1"
+                    Name="Brulee z szafranem",
+                    Description = "Podgrzej w rondlu śmietanę do temperatury 60-70C.\n"+
+                    "Dodaj nitki szafranu i przykryj rondel przezroczystą folią. Zdejmij z ognia i pozostaw na 2 godziny.\n"+
+                    "Po tym czasie podgrzej ponownie śmietanę do 80C\n"+
+                    "Napełnij wodą i podgrzej SousVide do temperatury 85C\n"+
+                    "W misce ubij żółtka z cukrem do momentu rozpuszczenia się cukru i uzyskania puszystości.\n"+
+                    "Powoli wlewaj śmietanę, chochelka po chochelce, ubijając ją z jajkami. Mieszaj dokładnie.\n"+
+                    "Następnie przelej kremową miksturę do dużego (ok. 4l) worka próżniowego i pozbywszy się z niego powietrza, szczelnie zamknij.\n"+
+                    "Zanurz worek w SousVide i gotuj przez godzinę.\n"+
+                    "Po ugotowaniu, otwórz worek i przelej miksturę do żaroodpornych miseczek, następnie je przykryj i włóż do lodówki na 24 godziny.\n"+
+                    "Przed podaniem wyjmij z lodówki deser, aby się ogrzał do temperatury pokojowej, po czym delikatnie posyp każdą muffinkę cukrem i \n" +
+                    "Przy użyciu np. zapalniczki przypal cukier, aż zbrązowieje.\n"+
+                    "Podawaj od razu.\n"
+
+
+
+
+                    ,
+                    Image= "brulee"
                 },
                 new Recipe()
                 {
                     Id = 2,
                     AddedDate = DateTime.UtcNow,
-                    Name="Pierogi z mięsem",
-                    Description= "Na stolnicę wysypac mąkę, w środek wlac wodę ze stopionym masłem ,jajko oraz sól, Wyrobic ciasto i odstawić na 30 minut.\nMięso wrzucic do garnka,"+
-                    " zalać wodą, dodać ziele angielskie oraz liść laurowy i gotowac na wolnym ogniu przez godzinę.Mieso ostudzic, zmielic w maszynce, cebulke zeszklić na oleju."+
-                    " Wszystkie składniki połączyc ze soba czyli : kasze mięso cebulkę , jajko, oraz przyprawy.\n Wszystko wymieszac.\nCiasto na pierogi cienko rozwałkować wykrawać"+
-                    " szklanką kółka, w środek nakładać łyżką gotowy farsz, sklejać.\nGotowac 5 minut od momentu wypłynięcia.\nGotowe mozna obsypać delikatnie stopiona słoniną",
-                    Image= "img2"
+                    Name="Sałatka grecka według Funky Gourmet",
+                    Description= "Zmiksuj wszystkie składniki przy pomocy blendera ręcznego do czasu aż mikstura ulegnie ujednoliceniu.\n"+
+                    "Ułóż kilka warstw mokrego muślinu na durszlak.\n"+
+                    " Wyłóż miksturę na durszlak i zostaw na ok. 1 minutę do odsączenia.\n"+
+                    "Wylej pierwszą wodę.\n"+
+                    "Wstaw produkt w durszlaku z muślinem na 4 godziny do lodówki do dalszego odsączenia.\n"+
+                    "Zamroź miksturę w PacoJet. Jeśli nie masz PacoJet, zastosuj instrukcję poniżej.\n"+
+                    "Gdy produkt będzie zamrożony, zmiksuj go w PacoJet do uzyskania delikatnej, białej granity.\n"+
+                    "JEŚLI NIE MASZ PACOJET: Bez urządzenia trudno będzie osiągnąć tę samą, delikatną konsystencję, jednak w zamian za to można zrobić klasyczną granitę.\n W tym celu wstaw miksturę do zamrażarki i co jakiś czas skrob ją widelcem, aby osiągnąć płatkowatą",
+                    Image= "grecka"
                 },
                 new Recipe()
                 {
                     Id = 3,
                     AddedDate = DateTime.UtcNow,
-                    Name="Burger wołowy",
-                    Description= "polędwice wołową siekamy na desce ostrym, dużym nożem w paseczki, następnie w drobną kostkę (jak na tatara).\n Cebulkę drobno siekamy.\nMięso mieszamy"+
-                    " z cebulką, pieprzem i solą. Ugniatamy dobrze i najlepiej na papierze do pieczenia formujemy burgery nożem, mocno dociskając.\n Wkładamy na ok. 30 min do zamrażalki."+
-                    " Po tym czasie wyjmujemy i smażymy na mocno rozgrzanym oleju rzepakowym z jednej strony, zmniejszamy gaz i przykrywamy smażąc z drugiej strony, po czym ponownie"+
-                    " obracamy, układamy na burgerach ser, przykrywamy i smażymy jeszcze chwilkę, aż ser się dokładnie stopi. Wtedy powinny być dobrze wysmażone i nie krwiste.\n"+
-                    " Jeśli ktoś lubi takie wystarczy tylko raz obrócić i nie trzeba zmniejszać gazu.\n Podaje w zgrillowanej bułce z dodatkami.",
-                    Image= "img3"
+                    Name="Polędwica wołowa z pesto i szparagami",
+                    Description= "Napełnij wodą Sous-Vide i podgrzej do temperatury 56.5 stopni Celsjusza."+
+                    "Równomiernie przypraw mięso solą i pieprzem, następnie włóż je do worków próżniowych (po dwie porcje do każdego) i szczelnie zamknij.\n"+
+                    "Zanurz worki z mięsem w cyrkulatorze i ustaw czasomierz na 2 godziny. Jest to minimalny czas gotowania.\n Mięso może zostać w Sous-Vide dłużej, ale w pełni ugotowane będzie już po 2 godzinach.\n"+
+                    "W międzyczasie blanszuj liście bazylii we wrzątku przez około 30 sekund. Następnie wrzuć je do miski z zimną wodą,\n żeby się nie rozgotowały. Po chwili wyjmij je z wody, osusz i drobno pokrój.\n"+
+                    "Z czosnkiem zrób to samo co z bazylią.\n"+
+                    "Do malaksera włóż czosnek, bazylię i parmezan. Dodaj oliwę z oliwek oraz łyżeczkę soli. Całość blenduj do uzyskania gładkiej konsystencji.\n"+
+                    "Dodaj tyle soku z cytryny, aby uzyskać odpowiedni dla siebie smak.\n"+
+                    "Włóż pojedynczo szparagi do worków próżniowych. Dodaj do smaku sól oraz odrobinę pesto. Zamknij szczelnie worek.\n"+
+                    "Zanurz szparagi w wannie Sous-Vide obok mięsa na 15 minut, następnie wyjmij i otwórz worki.\n"+
+                    "Na dobrze naoliwionym grillu bądź patelni grillowej podsmażaj steki na dużym ogniu przez 30-45 sekund z każdej strony.\n"+
+                    "Podawaj ze szparagami i dodatkowym pesto wedle życzenia.\n",
+                    Image= "beef"
                 },
-                new Recipe()
-                {
-                    Id = 4,
-                    AddedDate = DateTime.UtcNow,
-                    Name="Spaghetti",
-                    Description= "Cebulę i czosnek obieram, kroję, szklę na maśle, dodaję oczyszczoną i pokrojoną paprykę, podsmażam, dodaje umyte i pokrojone pieczarki, podsmażam.\n"+
-                    "Do całości dodaję mięso mielone, podsmażam, dodaje przyprawy, mieszam. Dodaje przecier pomidorowy, dusze.\nW osolonym wrzątku 8 minut gotuje makaron, odcedzam."+
-                    "\nMakaron podaje z sosem.",
-                    Image= "img4"
-                },                
+               
+                               
             };
 
             List<Igredient> igredients = new List<Igredient>()
             {
-                new Igredient(){ Name = "Mąka Pszenna", Quantity= 200, Unit = "g", Id =1, RecipeId = 1},
-                new Igredient(){ Name = "Wrząca woda", Quantity= 125, Unit = "ml", Id =2, RecipeId = 1},
-                new Igredient(){ Name = "Jajko", Quantity= 1, Unit = "szt", Id =3, RecipeId = 1},
-                new Igredient(){ Name = "Masło", Quantity= 25, Unit = "g", Id =4, RecipeId = 1},
-                new Igredient(){ Name = "Ser Biały", Quantity= 500, Unit = "g", Id =5, RecipeId = 1},
-                new Igredient(){ Name = "Ziemniaki", Quantity= 500, Unit = "g", Id =6, RecipeId = 1},
-                new Igredient(){ Name = "Sól", Quantity= 2, Unit = "g", Id =7, RecipeId = 1},
-
+                new Igredient(){ Name = "Śmietana kremowa", Quantity= 1, Unit = "l", Id =1, RecipeId = 1},
+                new Igredient(){ Name = "Cukier", Quantity= 200, Unit = "g", Id =2, RecipeId = 1},
+                new Igredient(){ Name = "Żółtka jaja", Quantity= 8, Unit = "szt", Id =3, RecipeId = 1},
+                new Igredient(){ Name = "Szafran", Quantity= 1, Unit = "g", Id =4, RecipeId = 1},
+               
             };
 
             recipes.ForEach(async r => await App.LocalDB.SaveItem(r));
