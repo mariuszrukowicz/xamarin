@@ -191,6 +191,21 @@
   <ItemGroup>
     <BundleResource Include="Resources\cancel.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\beef.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bryndza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\brulee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\addImage.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\grecka.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\MyCookBook\MyCookBook.projitems" Label="Shared" />
 </Project>
